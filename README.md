@@ -1,25 +1,25 @@
 # PathToLineFollowerJS v1.0
-O que é isto?
+## O que é isto?
 Software do lado do cliente, fácil de usar, para criar caminho para robôs seguidores de linha e gerar arquivos (PDF/SVG) apropriados para impressão em grandes formatos (banners de gráficas on-line).
 
-Funcionalidades:
+## Funcionalidades:
 - Largura e altura do circuito ajustáveis;
 - Três tamanhos da grade (raio do círculo);
 - Ajuste de margem quando necessário;
 - Tamanho escalavél para impressão em grandes formatos (banners de lona);
 - A grade de referência é útil em experiências de controle PID, odometria entre outras.
 
-Vantagens
+## Vantagens
 - Reutilizável
 - Durável
 - Fácil de Limpar
 
-Como usar
-Sotfware disponível em https://rbphi.dev.
+## Como usar
+Software disponível em https://rbphi.dev.
 
 Vídeo de apresentação de uso de banner impresso: https://www.youtube.com/watch?v=USQ4qJntNZo
 
-Uso
+## Uso
 - Escolha o tamanho do raio (100mm, 125mm ou 150mm) das curvas mais adequado para o seu robô.
 - Escolha a quantidade de colunas e linhas da grade.
 - Ajuste a margem, se necessário, par atingir as medidas de impressões padronizadas.
@@ -28,14 +28,14 @@ Uso
 - Defina o caminho.
 - Gere o arquivo (PDF/SVG) para impressão.
 
-Definindo o caminho
+## Definindo o caminho
 - Click nos pontos azuis claros que indicam os destinos possíveis (retas ou curvas).
 - Ponto vermelho: indica que não é possível prosseguir.
 - Desfazer: Para desfazer o último node click em cima do último ponto desenhado.
 - Ponto verde: o caminho está completo (fechado) e pronto para gerar o arquivo PDF/SVG.
 
-Licença
+## Licença
 O código-fonte está licenciado sob a licença MIT, que você pode encontrar no arquivo MIT-LICENSE.txt.
 
-Contato
+## Contato
 ehcval@rbphi.dev
