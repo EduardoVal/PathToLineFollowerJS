@@ -1,0 +1,65 @@
+#board_div {
+    width: 440px;
+    height: 840px;
+    position: relative;
+}
+
+#grid {
+
+    z-index: 3;
+    position: absolute;
+    top: 40px;
+    left: 40px;
+
+
+}
+output {
+    
+    text-align: left;
+    color:rgb(15, 148, 5);
+    
+    font-weight: normal;
+    font-style: italic;
+  }
+  
+
+#eixos {
+    z-index: 1;
+    position: absolute;
+    border: 1px solid rgb(36, 5, 172);
+    top: 0px;
+    left: 0px;
+
+}
+
+#path {
+    z-index: 2;
+    position: absolute;
+
+    top: 40px;
+    left: 40px;
+
+}
+
+
+#div_svg {
+    position: relative;
+    visibility: visible
+}
+
+#dummy {
+    visibility: hidden;
+    visibility: visible
+}
+
+#canvas_svg {
+    font-weight: "bold"
+}
+
+#btn_export_svg {
+    margin-bottom: 20px;
+}
+
+#btn_export_pdf {
+    margin-bottom: 20px;
+}
